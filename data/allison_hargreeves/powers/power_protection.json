@@ -1,0 +1,11 @@
+{
+  "name":"Power Protection",
+  "description":"You rely on your powers to protect you so you don't need a shield.",
+  "type":"origins:prevent_item_use",
+  "item_condition":{
+     "type":"origins:ingredient",
+     "ingredient":{
+        "tag":"origins:shields"
+     }
+  }
+}

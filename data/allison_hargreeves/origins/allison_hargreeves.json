@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"allison_hargreeves:i_heard_a_rumor",
+		"allison_hargreeves:i_heard_a_rumor_i_blew_your_minds",
+		"allison_hargreeves:i_heard_a_rumor_you_cant_move",
+		"allison_hargreeves:i_heard_a_rumor_that_you_punched_yourself_in_the_face",
+		"allison_hargreeves:i_heard_a_rumor_that_you_loved_me",
+		"allison_hargreeves:attack",
+		"allison_hargreeves:strength",
+		"allison_hargreeves:manipulator",
+		"allison_hargreeves:depression",
+		"allison_hargreeves:power_protection",
+		"allison_hargreeves:toll"
+	],
+	"icon": "minecraft:pink_wool",
+	"order": 10,
+	"impact": 3,
+	"name": "Allison Hargreeves",
+	"description": "You are able to say commands to the target and their body will follow the commands. Your ability controls and plays with the minds of the target or enemy to your advantage. Your powers are extremely useful in fighting situations and useful for manipulating."
+}

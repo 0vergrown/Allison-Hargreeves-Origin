@@ -1,0 +1,15 @@
+{
+    "hidden":true,
+    "name":"I Heard A Rumor That You Love Me (Team Detect)",
+    "description":"This power is given to entities that are part of the team for Allison Hargreeves.",
+    "type":"origins:self_glow",
+    "entity_condition":{
+       "type":"origins:origin",
+       "origin":"allison_hargreeves:allison_hargreeves",
+       "layer":"origins:origin"
+    },
+    "use_teams":false,
+    "red":255,
+    "green":85,
+    "blue":255
+}

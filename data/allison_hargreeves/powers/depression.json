@@ -1,0 +1,28 @@
+{
+    "name":"Depression",
+    "description":"When its raining or during nighttime you get slowness because it reminds you of all the sad things in life.",
+    "type":"origins:stacking_status_effect",
+    "min_stacks":-3,
+    "max_stacks":1,
+    "duration_per_stack":100,
+    "tick_rate":20,
+    "effect":{
+       "effect":"minecraft:slowness",
+       "amplifier":0,
+       "is_ambient":true,
+       "show_particles":false,
+       "show_icon":false
+    },
+    "condition":{
+       "type":"origins:or",
+       "conditions":[
+          {
+             "type":"origins:in_rain"
+          },
+          {
+             "type":"origins:daytime",
+             "inverted":true
+          }
+       ]
+    }
+}

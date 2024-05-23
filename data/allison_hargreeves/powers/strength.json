@@ -1,0 +1,12 @@
+{
+    "name":"Strength",
+    "description":"You have strength from training all your childhood to be a hero.",
+    "type":"origins:attribute",
+    "modifier":{
+       "attribute":"minecraft:generic.attack_damage",
+       "operation":"multiply_base",
+       "value":0.25,
+       "name":"Max Damage Increase"
+    },
+    "update_health":false
+}
