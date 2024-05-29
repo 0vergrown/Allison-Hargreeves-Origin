@@ -9,7 +9,7 @@
        "layer":"origins:origin"
     },
     "use_teams":false,
-    "red":255,
-    "green":85,
-    "blue":255
+    "red":1,
+    "green":0.4117647058823529,
+    "blue":0.7058823529411765
 }
