@@ -1,15 +1,42 @@
 {
-    "hidden":true,
+    "hidden": true,
     "name":"I Heard A Rumor That You Love Me (Team Detect)",
     "description":"This power is given to entities that are part of the team for Allison Hargreeves.",
-    "type":"origins:self_glow",
-    "entity_condition":{
-       "type":"origins:origin",
-       "origin":"allison_hargreeves:allison_hargreeves",
-       "layer":"origins:origin"
+    "type":"origins:multiple",
+    "glow":{
+       "type":"origins:self_glow",
+       "entity_condition":{
+          "type":"origins:origin",
+          "origin":"allison_hargreeves:allison_hargreeves",
+          "layer":"origins:origin"
+       },
+       "use_teams":false,
+       "red":1,
+       "green":0.4117647058823529,
+       "blue":0.7058823529411765
     },
-    "use_teams":false,
-    "red":1,
-    "green":0.4117647058823529,
-    "blue":0.7058823529411765
+    "heart_particles":{
+       "type":"origins:particle",
+       "particle":"minecraft:heart",
+       "bientity_condition":{
+          "type":"origins:target_condition",
+          "condition":{
+             "type":"origins:origin",
+             "origin":"allison_hargreeves:allison_hargreeves",
+             "layer":"origins:origin"
+          }
+       },
+       "count":1,
+       "speed":0.01,
+       "force":true,
+       "spread":{
+          "x":0.5,
+          "y":0.5,
+          "z":0.5
+       },
+       "offset_y":1.0,
+       "frequency":10,
+       "visible_in_first_person":false,
+       "visible_while_invisible":false
+    }
 }

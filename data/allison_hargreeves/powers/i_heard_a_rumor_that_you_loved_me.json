@@ -68,6 +68,10 @@
                      "type":"origins:and",
                      "conditions":[
                         {
+                           "type":"origins:owner",
+                           "inverted":true
+                        },
+                        {
                            "type":"origins:living"
                         },
                         {
@@ -147,6 +151,7 @@
                "bientity_action":{
                   "type":"origins:tame"
                },
+               "command_at_hit":"execute as @s at @s rotated ~ 0 positioned ^ ^1.8 ^ run particle minecraft:dust 1.0 1.0 1.0 1.0 ^-0.01 ^-0.3 ^0.4 0.0225 0.008 0.0225 0 8 force @a",
                "command_step":1.00,
                "command_along_ray_only_on_hit":false
             }
